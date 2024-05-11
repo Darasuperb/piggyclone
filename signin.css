@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./image/cool-background.png);
+    background-size: cover;
+    overflow: auto;
+   
+}
+.logo{
+    
+    display: flex;
+    justify-content: center;
+   
+    
+   
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40rem;
+    height: auto;
+    padding-top:3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem ;
+    background-color: #bcc0cb;
+    border: 0rem solid #fff;
+    box-shadow: 0 0 10rem;
+    text-align: center;
+    margin: 1.5rem;
+    margin-top: 6rem;
+    
+
+    font-weight: bold;
+    
+
+}
+.center:hover{
+background-color: #fff;
+transition: ease-in-out 1s;
+}
+
+
+form{
+    display: block;
+    margin: 1.5rem;
+}
+.center form .space{
+   margin: 0.5rem;
+}
+
+input[type="submit"]{
+    background-color: #5c616d;
+    padding-top:0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem ;
+}
+input[type="submit"]:hover{
+    background-color: #25272C;
+
+}
+
